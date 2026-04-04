@@ -15,21 +15,22 @@
     "test": "hardhat test --network hardhat"
   },
   "devDependencies": {
-    "@matterlabs/hardhat-zksync": "^1.4.0",
-    "@matterlabs/zksync-contracts": "^0.6.1",
-    "@nomicfoundation/hardhat-verify": "^2.0.9",
-    "@openzeppelin/contracts": "^5.1.0",
-    "@types/chai": "^4.3.7",
-    "@types/mocha": "^10.0.7",
-    "@types/node": "^22.10.1",
-    "chai": "^4.3.7",
-    "dotenv": "^16.4.5",
-    "ethers": "^6.13.4",
-    "hardhat": "^2.22.17",
-    "mocha": "^11.0.1",
+    "@matterlabs/hardhat-zksync": "^1.6.2",
+    "@matterlabs/zksync-contracts": "^29.0.0",
+    "@nomicfoundation/hardhat-chai-matchers": "^2.1.0",
+    "@nomicfoundation/hardhat-verify": "^2.1.1",
+    "@openzeppelin/contracts": "^5.4.0",
+    "@types/chai": "^5.2.2",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^22.17.1",
+    "chai": "^4.5.0",
+    "dotenv": "^16.6.1",
+    "ethers": "^6.15.0",
+    "hardhat": "^2.26.2",
+    "mocha": "^11.7.1",
     "ts-node": "^10.9.2",
-    "typescript": "^5.7.2",
-    "viem": "^2.30.0",
-    "zksync-ethers": "^6.15.3"
+    "typescript": "^5.9.2",
+    "viem": "^2.37.6",
+    "zksync-ethers": "^6.21.0"
   }
 }

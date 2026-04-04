@@ -22,7 +22,7 @@ async function main() {
 
   // Get the token balance
   // Checking the balance for another address will fail with 'unauthorized' error
-  const balance = await ERC20Contract.balanceOf(signer);
+  const balance = await ERC20Contract.balanceOf(signer.address);
   console.log(`${signer.address} token balance: ${ethers.formatUnits(balance, 18)}`);
 }
 
